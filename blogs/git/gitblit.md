@@ -32,7 +32,7 @@ categories:
 
 在命令行窗口中，输入以下两行命令
 
-![java.png](https://s2.loli.net/2021/12/16/SUqMYl4eO165vKX.png)
+![java.png](https://s2.loli.net/2021/12/16/v59WchJLN3HBDbZ.png)
 
 ## Gitblit 的获取
 
