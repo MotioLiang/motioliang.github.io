@@ -33,17 +33,17 @@ categories:
 -   **quoteProps** 对象属性的引号使用
 
 ```js
-”as-needed” // 仅在需要的时候使用
-”consistent” // 有一个属性需要引号，就都需要引号
-”preserve” // 保留用户输入的情况
+"as-needed" // 仅在需要的时候使用
+"consistent" // 有一个属性需要引号，就都需要引号
+"preserve" // 保留用户输入的情况
 ```
 
 -   **trailingComma** 末尾逗号
 
 ```js
-”none” // 末尾没有逗号
-”es5” // es5有效的地方保留
-”all” // 在可能的地方都加上逗号
+"none" // 末尾没有逗号
+"es5" // es5有效的地方保留
+"all" // 在可能的地方都加上逗号
 ```
 
 -   **bracketSpacing** 字面量对象括号中的空格，默认 true
@@ -56,17 +56,17 @@ false // Example: {foo: bar}.
 -   **arrowParens** 箭头函数中的括号
 
 ```js
-“avoid” // 在有需要的时候使用. Example: x => x
-“always” // 一直使用. Example: (x) => x
+"avoid" // 在有需要的时候使用. Example: x => x
+"always" // 一直使用. Example: (x) => x
 ```
 
 -   **endOfLine** 行末尾标识
 
 ```js
-“auto”  // 默认使用Maintain existing line endings (mixed values within one file are normalised by looking at what’s used after the first line)
-“lf” // Line Feed only (\n), common on Linux and macOS as well as inside git repos
-“crlf” // Carriage Return + Line Feed characters (\r\n), common on Windows
-“cr” // Carriage Return character only (\r), used very rarely
+"auto"  // 默认使用Maintain existing line endings (mixed values within one file are normalised by looking at what’s used after the first line)
+"lf" // Line Feed only (\n), common on Linux and macOS as well as inside git repos
+"crlf" // Carriage Return + Line Feed characters (\r\n), common on Windows
+"cr" // Carriage Return character only (\r), used very rarely
 ```
 
 ​

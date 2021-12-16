@@ -30,6 +30,7 @@ categories:
 ```js
 1. file-saver 一个在客户端保存文件的解决方案，非常适合在客户端上生成文件的Web应用程序
 2. js-xlsx 一个强大的解析和编写excel文件的库
+3. compressorjs 一个强大的图片压缩工具
 ```
 
 ### 网络请求
