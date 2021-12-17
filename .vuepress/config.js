@@ -84,6 +84,11 @@ module.exports = {
                 title: 'BookChat',
                 desc: '分享知识，共享智慧',
                 link: 'https://www.bookstack.cn'
+            },
+            {
+                title: '冴羽的博客',
+                desc: '冴羽的博客',
+                link: 'https://github.com/mqyqingfeng/Blog'
             }
         ],
         // logo: '/logo.png',
