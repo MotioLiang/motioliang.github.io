@@ -1,5 +1,5 @@
 ---
-title: 使用 VS Code 编写小程序
+title: VS Code 编写微信小程序
 date: 2021-12-14
 tags:
     - vscode
@@ -8,7 +8,7 @@ categories:
     - 开发工具
 ---
 
-### 插件推荐
+### 插件推荐安装
 
 **vscode wxml**
 
