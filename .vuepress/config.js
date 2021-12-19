@@ -19,6 +19,11 @@ module.exports = {
         ]
     ],
     theme: 'reco',
+    locales: {
+        '/': {
+            lang: 'zh-CN'
+        }
+    },
     themeConfig: {
         valineConfig: {
             appId: 'ngkgv0wTzVLdBQpxPxPrRJCj-MdYXbMMI', // your appId
@@ -92,7 +97,7 @@ module.exports = {
         author: 'motioliang',
         authorAvatar: '/avatar.png',
         // record: 'xxxx',
-        startYear: '2018'
+        startYear: '2018',
     },
     markdown: {
         lineNumbers: true
