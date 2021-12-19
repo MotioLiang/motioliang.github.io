@@ -13,7 +13,7 @@ categories:
 
 ### 自定义个性化配置
 
-**在 settings.json 中输入一下配置**
+**在 settings.json 中输入配置**
 
 ```json
 // "gitlens.currentLine.format": "${author}:${date}${ ★ message|50?}",
