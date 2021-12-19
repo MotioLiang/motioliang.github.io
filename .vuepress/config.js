@@ -40,28 +40,22 @@ module.exports = {
                 link: '/timeline/',
                 icon: 'reco-date'
             },
-            // {
-            //     text: 'Docs',
-            //     icon: 'reco-message',
-            //     items: [
-            //         {
-            //             text: 'vuepress-reco',
-            //             link: '/docs/theme-reco/'
-            //         }
-            //     ]
-            // },
+            {
+                text: 'GitHub',
+                icon: 'reco-github',
+                link: 'https://github.com/MotioLiang'
+            },
             {
                 text: '链接',
                 icon: 'reco-message',
                 items: [
-                    { text: 'GitHub', link: 'https://github.com/MotioLiang', icon: 'reco-github' },
                     { text: 'V2EX', link: 'https://www.v2ex.com/', icon: 'reco-v2ex' },
                     { text: 'videvo', link: 'https://www.videvo.net/search/keyboard/', icon: 'reco-eye' },
+                    { text: '优设导航', link: 'https://hao.uisdc.com/', icon: 'reco-eye' },
                     { text: '创造狮导航', link: 'http://www.chuangzaoshi.com/', icon: 'reco-eye' },
-                    { text: 'Web前端导航', link: 'http://www.alloyteam.com/nav/', icon: 'reco-eye' },
-                    { text: '前端导航平台', link: 'https://docs.pfan123.com/', icon: 'reco-v2ex' },
-                    { text: '代码素材', link: 'https://www.dowebok.com/', icon: 'reco-v2ex' },
-                    { text: 'Vue 插件库', link: 'https://www.vue365.cn/', icon: 'reco-v2ex' }
+                    { text: '前端导航平台', link: 'https://docs.pfan123.com/', icon: 'reco-eye' },
+                    { text: 'dowebok', link: 'https://www.dowebok.com/', icon: 'reco-eye' },
+                    { text: 'Vue 插件库', link: 'https://www.vue365.cn/', icon: 'reco-eye' }
                 ]
             }
         ],
