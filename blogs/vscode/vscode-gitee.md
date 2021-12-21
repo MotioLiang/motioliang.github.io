@@ -1,5 +1,5 @@
 ---
-title: VS Code 同步配置到码云gitee
+title: VS Code 同步配置到码云 Gitee
 date: 2021-06-19
 tags:
     - vscode
