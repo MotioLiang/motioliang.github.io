@@ -7,14 +7,14 @@ categories:
     - Web
 ---
 
-**HTTP 报文**
+### HTTP 报文
 
 > HTTP 报文就是浏览器和服务器间通信时发送及响应的数据块。浏览器向服务器请求数据，发送请求(request)报文；服务器向浏览器返回数据，返回响应(response)报文。报文信息主要分为两部分
 >
 > 1. 包含属性的首部(header)--------------------------附加信息（cookie，缓存信息等）与缓存相关的规则信息，均包含在 header 中
 > 2. 包含数据的主体部分(body)-----------------------HTTP 请求真正想要传输的部分
 
-**缓存规则解析**
+### 缓存规则解析
 
 为方便大家理解，我们认为浏览器存在一个缓存数据库,用于存储缓存信息。在客户端第一次请求数据时，此时缓存数据库中没有对应的缓存数据，需要请求服务器，服务器返回后，将数据存储至缓存数据库中。
 
@@ -27,7 +27,7 @@ categories:
 
 ![network.jpg](https://s2.loli.net/2021/12/16/IDULux46PC2dzoB.jpg)
 
-**缓存位置**
+### 缓存位置
 
 -   from Service Worker
 -   from memory cache
@@ -101,14 +101,14 @@ console.log('localhost:3000服务已开启!')
 Last-Modiflied 与 Expires 一样，也是有缺陷的。如果，资源的变化的时间间隔小于秒级，比如说是毫秒级的，或者说资源直接是动态生成的，那根据 Last-Modified 判断，资源就是每时每刻都最新的，即被修改过！
 所以，Etag & If-Node-Match 就是来解决这个问题的。
 
-`ETag`头的另一个典型用例是缓存未更改的资源。 如果用户再次访问给定的 URL（设有`ETag`字段），显示资源过期了且不可用，客户端就发送值为`ETag`的[`If-None-Match`](https://links.jianshu.com/go?to=https%3A%2F%2Fdeveloper.mozilla.org%2Fzh-CN%2Fdocs%2FWeb%2FHTTP%2FHeaders%2FIf-None-Match) header 字段：
+`ETag`头的另一个典型用例是缓存未更改的资源。 如果用户再次访问给定的 URL（设有`ETag`字段），显示资源过期了且不可用，客户端就发送值为`ETag`的[`If-None-Match`](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/If-None-Match) header 字段：
 
 ```dart
 If-None-Match: "33a64df551425fcc55e4d42a148795d9f25f89d4"
 ```
 
-服务器将客户端的 ETag（作为 If-None-Match 字段的值一起发送）与其当前版本的资源的 ETag 进行比较，如果两个值匹配（即资源未更改），服务器将返回不带任何内容的[`304`](https://links.jianshu.com/go?to=https%3A%2F%2Fdeveloper.mozilla.org%2Fzh-CN%2Fdocs%2FWeb%2FHTTP%2FStatus%2F304)未修改状态，告诉客户端缓存版本可用（新鲜）。
+服务器将客户端的 ETag（作为 If-None-Match 字段的值一起发送）与其当前版本的资源的 ETag 进行比较，如果两个值匹配（即资源未更改），服务器将返回不带任何内容的[`304`](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Status/304)未修改状态，告诉客户端缓存版本可用（新鲜）。
 相关资料
-[https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/ETag](https://links.jianshu.com/go?to=https%3A%2F%2Fdeveloper.mozilla.org%2Fzh-CN%2Fdocs%2FWeb%2FHTTP%2FHeaders%2FETag)
+[https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/ETag](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/ETag)
 **优先级**
 强制缓存与对比缓存是可以同时存在的，并且**强制缓存的优先级高于对比缓存**。实际应用中，也是两者共同使用的。
