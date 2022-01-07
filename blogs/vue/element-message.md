@@ -42,6 +42,8 @@ DonMessage.info = options => showMessage(options, 'info')
 
 DonMessage.error = options => showMessage(options, 'error')
 
+DonMessage.closeAll = Message.closeAll
+
 export default DonMessage
 ```
 
