@@ -74,5 +74,26 @@ categories:
 7. merge-images 一个将多张图片合并成一张图的js插件
 8. cropperjs 一款强大的图片裁切库, 支持灵活的图片裁切方式
 9. Grade 一个基于图像中的前2种主要颜色生成互补渐变背景的库
-9. kscreenshot web截图工具
+10. kscreenshot web截图工具
+```
+
+###  vue 组件/插件库
+
+```js
+1. vue-infinite-loading 内容滚动
+2. vue-virtual-scroller 内容滚动
+3. mescroll.js 上拉下拉刷新支持 uni-app
+4. vue-moveable 可创建可移动，可拖动，可调整大小，可扩展，可旋转，可变形，可插入的元素 
+5. v-viewer vue点击图片放大预览图片支持旋转等
+6. vxe-table table表格
+7. vue-form-making 基于 vue 和 element-ui 实现的可视化表单设计器
+8. vue-cropper 一个优雅的图片裁剪插件
+9. mammoth.js 把 word 转换为 HTML 的功能，也能实现在浏览器中直接在线预览
+10. kkFileView 文档在线预览
+11. vue-snip 将文本截断为特定的行数
+12. lucky-canvas ( 大转盘 / 九宫格 ) 抽奖插件
+13. TransX vue 组件切换动画库, 支持 10 几种动画切换方式 
+14. vue-carousel-3d 3D 轮播图
+15. vuejs-vr 一种基于 3D js的虚拟现实应用程序包装器
+16. panolens.js Javascript 360 Panorama Viewer
 ```
