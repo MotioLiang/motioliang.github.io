@@ -11,13 +11,13 @@ categories:
 
 > 开发过程中个人编写的源文件才会频繁变动，而一些库文件我们一般是不会去改动的。如果能把这些库文件提取出来，就能减少打包体积，加快编译速度。本文主要讲述在 vue-cli3 中利用 DllPlugin 来进行预编译。
 
-#### 1、安装相关插件
+### 1、安装相关插件
 
 ```js
 yarn add webpack-cli add-asset-html-webpack-plugin clean-webpack-plugin --D
 ```
 
-#### 2、编写配置文件
+### 2、编写配置文件
 
 在项目根目录下新建 webpack.dll.conf.js，输入以下内容。
 
@@ -66,7 +66,7 @@ module.exports = {
 }
 ```
 
-#### 3、生成 dll
+### 3、生成 dll
 
 在 package.json 中加入如下命令
 
@@ -83,7 +83,7 @@ module.exports = {
 yarn run dll
 ```
 
-#### 4、忽略已编译文件
+### 4、忽略已编译文件
 
 为了节约编译的时间，这时间我们需要告诉 webpack 公共库文件已经编译好了，减少 webpack 对公共库的编译时间。在项目根目录下找到 vue.config.js ( 没有则新建 )，配置如下:
 
@@ -103,7 +103,7 @@ module.exports = {
 }
 ```
 
-#### 5、index.html 中加载生成的 dll 文件
+### 5、index.html 中加载生成的 dll 文件
 
 经过上面的配置，公共库提取出来了，编译速度快了，但如果不引用生成的 dll 文件，网页是不能正常工作的。
 
