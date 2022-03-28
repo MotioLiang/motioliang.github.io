@@ -7,6 +7,8 @@ categories:
     - Web
 ---
 
+![vue.jpg](https://s2.loli.net/2022/03/28/RtAUwQjNSxGFIvD.png)
+
 ### 调用
 
 ```html
