@@ -1,5 +1,5 @@
 ---
-title: 实现简化版 vue-mini
+title: 实现简化版 Vue vue-mini
 date: 2022-03-27
 tags:
     - vue
@@ -8,6 +8,12 @@ categories:
 ---
 
 ![vue.jpg](https://s2.loli.net/2022/03/28/RtAUwQjNSxGFIvD.png)
+
+> 1. Observer 负责将数据转换成 getter/setter 形式
+> 2. Dep 负责管理数据的依赖，是一个观察者模式，上游对接 Observer，下游对接 Watcher
+> 3. Watcher 是实际上的数据依赖，负责将数据的变化转发到外界(回调更新)
+
+> 将 data 传入 Observer 转成 getter/setter 形式，当 Watcher 实例读取数据时，会触发 getter，被收集到 Dep 仓库中，当数据更新时，触发 setter，通过 notify 通知 Dep 仓库中的所有 Watcher 更新实例，Watcher 实例负责通知外界更新
 
 ### 调用
 
