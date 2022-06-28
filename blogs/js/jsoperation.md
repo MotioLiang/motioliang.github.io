@@ -14,9 +14,10 @@ sticky: 1
 
 ```js
 /**
- * 加法运算，避免数据相加小数点后产生多位数和计算精度损失。
- *
- * @param num1加数1 | num2加数2
+ * @desc 加法运算，避免数据相加小数点后产生多位数和计算精度损失。
+ * @param {number} num1 加数1
+ * @param {number} num2 加数2
+ * @author wanghaolaing
  */
 function numAdd(num1, num2) {
     var baseNum, baseNum1, baseNum2
@@ -35,9 +36,10 @@ function numAdd(num1, num2) {
 }
 
 /**
- * 加法运算，避免数据相减小数点后产生多位数和计算精度损失。
- *
- * @param num1被减数  |  num2减数
+ * @desc 减法运算，避免数据相减小数点后产生多位数和计算精度损失。
+ * @param {number} num1 被减数
+ * @param {number} num2 减数
+ * @author wanghaolaing
  */
 function numSub(num1, num2) {
     var baseNum, baseNum1, baseNum2
@@ -58,9 +60,10 @@ function numSub(num1, num2) {
 }
 
 /**
- * 乘法运算，避免数据相乘小数点后产生多位数和计算精度损失。
- *
- * @param num1被乘数 | num2乘数
+ * @desc 乘法运算，避免数据相乘小数点后产生多位数和计算精度损失。
+ * @param {number} num1 乘数1
+ * @param {number} num2 乘数2
+ * @author wanghaolaing
  */
 function numMulti(num1, num2) {
     var baseNum = 0
@@ -76,9 +79,10 @@ function numMulti(num1, num2) {
 }
 
 /**
- * 除法运算，避免数据相除小数点后产生多位数和计算精度损失。
- *
- * @param num1被除数 | num2除数
+ * @desc 除法运算，避免数据相除小数点后产生多位数和计算精度损失。
+ * @param {number} num1 被除数
+ * @param {number} num2 除数
+ * @author wanghaolaing
  */
 function numDiv(num1, num2) {
     var baseNum1 = 0,
