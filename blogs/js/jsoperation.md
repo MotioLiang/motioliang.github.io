@@ -17,7 +17,7 @@ sticky: 1
  * @desc 加法运算，避免数据相加小数点后产生多位数和计算精度损失。
  * @param {number} num1 加数1
  * @param {number} num2 加数2
- * @author wanghaolaing
+ * @author motioliang
  */
 function numAdd(num1, num2) {
     var baseNum, baseNum1, baseNum2
@@ -39,7 +39,7 @@ function numAdd(num1, num2) {
  * @desc 减法运算，避免数据相减小数点后产生多位数和计算精度损失。
  * @param {number} num1 被减数
  * @param {number} num2 减数
- * @author wanghaolaing
+ * @author motioliang
  */
 function numSub(num1, num2) {
     var baseNum, baseNum1, baseNum2
@@ -63,7 +63,7 @@ function numSub(num1, num2) {
  * @desc 乘法运算，避免数据相乘小数点后产生多位数和计算精度损失。
  * @param {number} num1 乘数1
  * @param {number} num2 乘数2
- * @author wanghaolaing
+ * @author motioliang
  */
 function numMulti(num1, num2) {
     var baseNum = 0
@@ -82,7 +82,7 @@ function numMulti(num1, num2) {
  * @desc 除法运算，避免数据相除小数点后产生多位数和计算精度损失。
  * @param {number} num1 被除数
  * @param {number} num2 除数
- * @author wanghaolaing
+ * @author motioliang
  */
 function numDiv(num1, num2) {
     var baseNum1 = 0,
