@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "author": "reco_luan",
   "scripts": {
-    "serve": "vuepress dev . --open --host \"localhost\"",
+    "dev": "vuepress dev . --open --host \"localhost\"",
     "build": "vuepress build .",
     "git": "start ./deploy.sh"
   },
   "devDependencies": {
     "vuepress": "1.8.2",
-    "vuepress-theme-reco": "1.6.10"
+    "vuepress-theme-reco": "1.6.14"
   },
   "description": "motioliang blog"
 }
