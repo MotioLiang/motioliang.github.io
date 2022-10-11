@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vuepress dev . --open --host \"localhost\"",
     "build": "vuepress build .",
-    "git": "start ./deploy.sh"
+    "upload gitee": "start ./gitee.sh",
+    "upload github": "start ./github.sh"
   },
   "devDependencies": {
     "vuepress": "1.8.2",
