@@ -5,7 +5,6 @@ tags:
     - js
 categories:
     - Web
-sticky: 1
 ---
 
 ::: tip
@@ -22,29 +21,29 @@ sticky: 1
 function numAdd(num1, num2) {
     var baseNum, baseNum1, baseNum2, c
     try {
-      baseNum1 = num1.toString().split('.')[1].length
+        baseNum1 = num1.toString().split('.')[1].length
     } catch (e) {
-      baseNum1 = 0
+        baseNum1 = 0
     }
     try {
-      baseNum2 = num2.toString().split('.')[1].length
+        baseNum2 = num2.toString().split('.')[1].length
     } catch (e) {
-      baseNum2 = 0
+        baseNum2 = 0
     }
     c = Math.abs(baseNum1 - baseNum2)
     baseNum = Math.pow(10, Math.max(baseNum1, baseNum2))
     if (c > 0) {
-      var cm = Math.pow(10, c)
-      if (baseNum1 > baseNum2) {
-        num1 = Number(num1.toString().replace('.', ''))
-        num2 = Number(num2.toString().replace('.', '')) * cm
-      } else {
-        num1 = Number(num1.toString().replace('.', '')) * cm
-        num2 = Number(num2.toString().replace('.', ''))
-      }
+        var cm = Math.pow(10, c)
+        if (baseNum1 > baseNum2) {
+            num1 = Number(num1.toString().replace('.', ''))
+            num2 = Number(num2.toString().replace('.', '')) * cm
+        } else {
+            num1 = Number(num1.toString().replace('.', '')) * cm
+            num2 = Number(num2.toString().replace('.', ''))
+        }
     } else {
-      num1 = Number(num1.toString().replace('.', ''))
-      num2 = Number(num2.toString().replace('.', ''))
+        num1 = Number(num1.toString().replace('.', ''))
+        num2 = Number(num2.toString().replace('.', ''))
     }
     return (num1 + num2) / baseNum
 }
