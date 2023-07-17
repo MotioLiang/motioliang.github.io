@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-14f5fcf9","path":"/blogs/vue/compress-pictures.html","title":"vue+vant ui图片上传压缩图片大小","lang":"zh-CN","frontmatter":{"title":"vue+vant ui图片上传压缩图片大小","date":"2020-02-22T00:00:00.000Z","tags":["vue","vant"],"categories":["Web"],"sticky":2},"headers":[],"git":{},"filePathRelative":"blogs/vue/compress-pictures.md"}');export{e as data};

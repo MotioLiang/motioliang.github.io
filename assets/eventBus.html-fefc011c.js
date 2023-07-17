@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-6f859f78","path":"/blogs/js/eventBus.html","title":"简版 EventBus","lang":"zh-CN","frontmatter":{"title":"简版 EventBus","date":"2022-03-12T00:00:00.000Z","tags":["js"],"categories":["Web"]},"headers":[],"git":{},"filePathRelative":"blogs/js/eventBus.md"}');export{t as data};

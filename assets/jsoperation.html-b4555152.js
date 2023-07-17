@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5e07328a","path":"/blogs/js/jsoperation.html","title":"关于JS小数的加减乘除精度丢失问题","lang":"zh-CN","frontmatter":{"title":"关于JS小数的加减乘除精度丢失问题","date":"2021-8-21","tags":["js"],"categories":["Web"]},"headers":[],"git":{},"filePathRelative":"blogs/js/jsoperation.md"}');export{t as data};

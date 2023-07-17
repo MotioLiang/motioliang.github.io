@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-760f0f7c","path":"/blogs/vscode/vscode-gitee.html","title":"VS Code 同步配置到码云 Gitee","lang":"zh-CN","frontmatter":{"title":"VS Code 同步配置到码云 Gitee","date":"2021-06-19T00:00:00.000Z","tags":["vscode"],"categories":["开发工具"]},"headers":[],"git":{},"filePathRelative":"blogs/vscode/vscode-gitee.md"}');export{e as data};

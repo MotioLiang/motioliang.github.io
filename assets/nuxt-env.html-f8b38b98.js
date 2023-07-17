@@ -1,0 +1,26 @@
+import{_ as s,o as a,c as t,b as e,a as n}from"./app-31c067ee.js";const p={},o=n(`<p>1.在根目录下新建 env.js 文件</p><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">dev</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token constant">MODE</span><span class="token operator">:</span> <span class="token string">&#39;develpment&#39;</span><span class="token punctuation">,</span>
+        <span class="token constant">ENV_API</span><span class="token operator">:</span> <span class="token string">&#39;http://jsonplaceholder.typicode.com&#39;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">pro</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token constant">MODE</span><span class="token operator">:</span> <span class="token string">&#39;production&#39;</span><span class="token punctuation">,</span>
+        <span class="token constant">ENV_API</span><span class="token operator">:</span> <span class="token string">&#39;http://jsonplaceholder.typicode.com/110&#39;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>2.在 nuxt.config.js 中</p>`,3),r=n(`<div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token keyword">import</span> env <span class="token keyword">from</span> <span class="token string">&#39;./env&#39;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">env</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">baseUrl</span><span class="token operator">:</span> env<span class="token punctuation">[</span>process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">MODE</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token constant">ENV_API</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>3.修改 packages.json</p><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code> <span class="token string-property property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string-property property">&quot;dev&quot;</span><span class="token operator">:</span> <span class="token string">&quot;cross-env  MODE=dev nuxt&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;build&quot;</span><span class="token operator">:</span> <span class="token string">&quot;cross-env MODE=pro nuxt build&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;start&quot;</span><span class="token operator">:</span> <span class="token string">&quot;cross-env MODE=pro nuxt start&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;generate&quot;</span><span class="token operator">:</span> <span class="token string">&quot;cross-env MODE=pro nuxt generate&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;lint&quot;</span><span class="token operator">:</span> <span class="token string">&quot;eslint --ext .js,.vue --ignore-path .gitignore .&quot;</span><span class="token punctuation">,</span>
+    <span class="token string-property property">&quot;precommit&quot;</span><span class="token operator">:</span> <span class="token string">&quot;npm run lint&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,3);function c(i,l){return a(),t("div",null,[o,e("more"),r])}const d=s(p,[["render",c],["__file","nuxt-env.html.vue"]]);export{d as default};

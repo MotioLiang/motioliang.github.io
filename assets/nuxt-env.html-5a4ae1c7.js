@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-8d29ab94","path":"/blogs/vue/nuxt-env.html","title":"nuxt 配置环境变量","lang":"zh-CN","frontmatter":{"title":"nuxt 配置环境变量","date":"2021-02-21T00:00:00.000Z","tags":["vue","nuxt"],"categories":["Web"]},"headers":[],"git":{},"filePathRelative":"blogs/vue/nuxt-env.md"}');export{t as data};
