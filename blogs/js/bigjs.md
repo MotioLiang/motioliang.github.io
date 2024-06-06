@@ -5,7 +5,6 @@ tags:
     - js
 categories:
     - Web
-sticky: 1
 ---
 
 ## js 精度问题
@@ -67,9 +66,9 @@ Big.js 是一个 JavaScript 的 “任意精度” 数字库，能够处理普�
 
 Big.js 可以通过多种途径来安装：
 
--   npm 安装: `npm install big.js`
--   下载源码包: [github.com/MikeMcl/big…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2FMikeMcl%2Fbig.js%2Farchive%2Fv5.2.2.tar.gz)
--   在线 CDN 引入: `<script src="https://cdn.jsdelivr.net/npm/big.js@5.2.2/big.min.js"></script>`
+- npm 安装: `npm install big.js`
+- 下载源码包: [github.com/MikeMcl/big…](https://github.com/MikeMcl/big.js/archive/v5.2.2.tar.gz)
+- 在线 CDN 引入: `<script src="https://cdn.jsdelivr.net/npm/big.js@5.2.2/big.min.js"></script>`
 
 ### 使用方法
 

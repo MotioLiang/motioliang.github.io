@@ -3,7 +3,6 @@ title: 去除 html 标签 textarea 输入字符红色下划波浪线
 date: 2021-3-20
 tags:
     - textarea
-    - regexp
 categories:
     - Web
 ---

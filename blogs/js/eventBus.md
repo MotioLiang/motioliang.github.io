@@ -1,7 +1,8 @@
 ---
 title: 简版 EventBus
 date: 2022-03-12
-tags: -js
+tags:
+    - js
 categories:
     - Web
 ---

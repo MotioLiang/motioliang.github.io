@@ -6,7 +6,6 @@ tags:
     - vant
 categories:
     - Web
-sticky: 2
 ---
 
 ::: tip 介绍
@@ -37,7 +36,7 @@ data () {
  }
  methods: {
      // 将base64转换为file文件
-	 dataURLtoFile (dataurl, filename) {
+  dataURLtoFile (dataurl, filename) {
       let arr = dataurl.split(',')
       let mime = arr[0].match(/:(.*?);/)[1]
       let bstr = atob(arr[1])

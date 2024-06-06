@@ -1,9 +1,9 @@
 ---
-title: es6原生实现观察者模式
+title: ES6 原生实现观察者模式
 date: 2018-12-25
 tags:
-    - js
     - Proxy
+    - js
 categories:
     - Web
 ---
