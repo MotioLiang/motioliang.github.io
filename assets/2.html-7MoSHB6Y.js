@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as a}from"./app-DgIu4VEv.js";const o={};function r(c,n){return e(),a("div")}const l=t(o,[["render",r],["__file","2.html.vue"]]),_=JSON.parse('{"path":"/tags/js/2.html","title":"","lang":"en-US","frontmatter":{"layout":"Categories"},"headers":[],"git":{},"filePathRelative":null}');export{l as comp,_ as data};
