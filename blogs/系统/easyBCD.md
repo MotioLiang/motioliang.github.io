@@ -13,9 +13,9 @@ categories:
 
 **一、下载【EasyBCD】软件：**
 
-https://neosmart.net/EasyBCD
+官网连接：[https://neosmart.net/EasyBCD](https://neosmart.net/EasyBCD)
 
-https://share.weiyun.com/8QkN7u7a
+离线安装包：[https://share.weiyun.com/8QkN7u7a](https://share.weiyun.com/8QkN7u7a)
 
 **二、安装【EasyBCD】**
 
