@@ -41,9 +41,7 @@ export default defineUserConfig({
           { text: 'videvo', link: 'https://www.videvo.net/search/keyboard/' },
           { text: '优设导航', link: 'https://hao.uisdc.com/' },
           { text: '创造狮导航', link: 'http://www.chuangzaoshi.com/' },
-          { text: '前端导航平台', link: 'https://docs.pfan123.com/' },
-          { text: 'dowebok', link: 'https://www.dowebok.com/' },
-          { text: 'Vue 插件库', link: 'https://www.vue365.cn/' }
+          { text: 'dowebok', link: 'https://www.dowebok.com/code' },
         ]
       }
       // { text: "Categories", link: "/categories/reco/1/" },
@@ -65,5 +63,4 @@ export default defineUserConfig({
       tagText: '标签' // 默认 tags
     },
   }),
-  // debug: true,
 });

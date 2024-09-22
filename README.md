@@ -18,6 +18,7 @@ bannerBrand:
 blog:
     socialLinks:
         - { icon: 'LogoGithub', link: 'https://github.com/MotioLiang' }
+        - { icon: 'LogoGithub', link: 'https://motioliang.github.io/vue3-resource' }
 isShowTitleInHome: true
 # actionText: About
 # actionLink: /views/other/about
