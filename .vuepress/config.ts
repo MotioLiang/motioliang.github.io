@@ -1,7 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 import { viteBundler } from '@vuepress/bundler-vite'
-import { webpackBundler } from '@vuepress/bundler-webpack'
+// import { webpackBundler } from '@vuepress/bundler-webpack'
 
 export default defineUserConfig({
   title: "motioliang",
@@ -9,29 +9,29 @@ export default defineUserConfig({
   bundler: viteBundler(),
   // bundler: webpackBundler(),
   theme: recoTheme({
+    tip: '提示',
+    info: '信息',
+    danger: '危险',
+    warning: '警告',
+    details: '详情',
+    tagsText: '标签',
+    backToHome: '返回首页',
+    categoriesText: '分类',
+    catalogTitle: '页面导航',
+    editLinkText: '编辑当前页面',
+    lastUpdatedText: '最后更新时间',
+    selectLanguageName: '简体中文',
+    notFound: '哇哦，没有发现这个页面！',
+    inputPasswordText: '请输入密码',
+    unlockSucessText: '密码正确，玩得开心！',
+    unlockFailuerText: '密码错误，请重新输入！',
+
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
     author: "motioliang",
     authorAvatar: "/head.png",
-    // docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
-    // docsBranch: "main",
-    // docsDir: "example",
-    lastUpdatedText: "",
-    // series 为原 sidebar
-    series: {
-      "/docs/theme-reco/": [
-        {
-          text: "module one",
-          children: ["home", "theme"],
-        },
-        {
-          text: "module two",
-          children: ["api", "plugin"],
-        },
-      ],
-    },
     navbar: [
-      { text: "首页", link: "/" },
+      { text: "首页", link: "/", icon: 'IconHome' },
       { text: '时间线', link: '/timeline' },
       {
         text: '链接',
@@ -44,23 +44,17 @@ export default defineUserConfig({
           { text: 'dowebok', link: 'https://www.dowebok.com/code' },
         ]
       }
-      // { text: "Categories", link: "/categories/reco/1/" },
-      // { text: "Tags", link: "/tags/tag1/1/" },
-      // {
-      //   text: "Docs",
-      //   children: [
-      //     { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
-      //     { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
-      //   ],
-      // },
     ],
+
+    socialLinks: [
+      { icon: 'IconGitHub', link: 'https://github.com/motioliang' }
+    ],
+
     // 自动设置分类
     autoSetBlogCategories: true,
-    // 自动将分类和标签添加至头部导航条
     autoAddCategoryToNavbar: {
-      location: 1, // 默认 0
-      categoryText: '分类', // 默认 categories
-      tagText: '标签' // 默认 tags
+      location: 1, // 插入位置，默认 0
+      // showIcon: true, // 展示图标，默认 false
     },
   }),
 });
