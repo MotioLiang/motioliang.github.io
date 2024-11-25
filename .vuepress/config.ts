@@ -35,7 +35,6 @@ export default defineUserConfig({
       { text: '时间线', link: '/timeline' },
       {
         text: '链接',
-        icon: 'reco-message',
         children: [
           { text: 'V2EX', link: 'https://www.v2ex.com/' },
           { text: 'videvo', link: 'https://www.videvo.net/search/keyboard/' },
@@ -54,7 +53,7 @@ export default defineUserConfig({
     autoSetBlogCategories: true,
     autoAddCategoryToNavbar: {
       location: 1, // 插入位置，默认 0
-      // showIcon: true, // 展示图标，默认 false
+      showIcon: true, // 展示图标，默认 false
     },
   }),
 });
