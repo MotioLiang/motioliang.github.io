@@ -1,0 +1,11 @@
+import{_ as n,c as a,e,o as i}from"./app-DKLT9RiB.js";const t={};function l(c,s){return i(),a("div",null,s[0]||(s[0]=[e(`<h3 id="git-回退到某个-commit" tabindex="-1"><a class="header-anchor" href="#git-回退到某个-commit"><span>git 回退到某个 commit</span></a></h3><div class="language-javascript line-numbers-mode" data-highlighter="prismjs" data-ext="js" data-title="js"><pre><code><span class="line">回退命令：</span>
+<span class="line">$ git reset <span class="token operator">--</span>hard <span class="token constant">HEAD</span><span class="token operator">^</span>         回退到上个版本</span>
+<span class="line"></span>
+<span class="line">$ git reset <span class="token operator">--</span>hard <span class="token constant">HEAD</span><span class="token operator">~</span><span class="token number">3</span>        回退到前<span class="token number">3</span>次提交之前，以此类推，回退到n次提交之前</span>
+<span class="line"></span>
+<span class="line">$ git reset <span class="token operator">--</span>hard commit_id     退到<span class="token operator">/</span>进到 指定commit的sha码</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">强推到远程：</span>
+<span class="line">$ git push origin <span class="token constant">HEAD</span> <span class="token operator">--</span>force</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,2)]))}const r=n(t,[["render",l],["__file","gitcommit.html.vue"]]),p=JSON.parse('{"path":"/blogs/git/gitcommit.html","title":"git 回退到某个commit","lang":"en-US","frontmatter":{"title":"git 回退到某个commit","date":"2021-3-20","tags":["git"],"categories":["git"]},"headers":[{"level":3,"title":"git 回退到某个 commit","slug":"git-回退到某个-commit","link":"#git-回退到某个-commit","children":[]}],"git":{"createdTime":1639637702000,"updatedTime":1639637702000,"contributors":[{"name":"王浩亮","email":"wanghaoliang@epatient.cn","commits":1}]},"filePathRelative":"blogs/git/gitcommit.md"}');export{r as comp,p as data};
